@@ -16,3 +16,14 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  margin-right: 5px;
+}
