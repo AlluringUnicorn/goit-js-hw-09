@@ -1,1 +1,17 @@
-console.log('Hello');
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
+
+const input = document.getElementById('datetime-picker');
+
+const date = new Date();
+console.log(date);
+
+flatpickr(input, {
+  enableTime: true,
+  time_24hr: true,
+  defaultDate: new Date(),
+  minuteIncrement: 1,
+  onClose(selectedDates) {
+    console.log(selectedDates[0]);
+  },
+});
