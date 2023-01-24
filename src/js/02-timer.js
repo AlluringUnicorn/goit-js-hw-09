@@ -3,8 +3,6 @@ import 'flatpickr/dist/flatpickr.min.css';
 
 const input = document.getElementById('datetime-picker');
 
-console.log('Hello World!!!!!');
-
 // flatpickr(input, {
 //   enableTime: true,
 //   time_24hr: true,
