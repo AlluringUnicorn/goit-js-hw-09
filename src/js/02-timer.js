@@ -12,3 +12,4 @@ const input = document.getElementById('datetime-picker');
 //     console.log(selectedDates[0]);
 //   },
 // });
+console.log('Hello');
