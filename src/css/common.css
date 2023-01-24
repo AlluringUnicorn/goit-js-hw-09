@@ -27,3 +27,32 @@ button {
   height: 30px;
   margin-right: 5px;
 }
+
+.timer{
+  display: flex;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #434040;
+}
+
+.field{
+  display:flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.label{
+  font-size: 15px;
+}
+
+.value{
+  font-size: 30px;
+}
+
+input{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #434040;
+font-size: 15px;
+}
